@@ -38,7 +38,7 @@ const allMaterialModule =[
   MatTableModule,
   MatPaginatorModule,
   MatProgressSpinnerModule,
-  FlexLayoutModule,
+  FlexLayoutModule.withConfig({addFlexToParent: false})
   MatDialogModule,
   MatListModule,
   MatExpansionModule
